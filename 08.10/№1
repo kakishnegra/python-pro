@@ -1,0 +1,10 @@
+x=input()
+y=input()
+z=input()
+t=0
+x=float(x)
+y=float(y)
+z=float(z)
+t=(x+y+z)//60
+q=t*60
+print(t,(x+y+z)-q)
